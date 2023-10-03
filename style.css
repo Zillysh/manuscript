@@ -82,7 +82,7 @@ p{
 	margin-left: 120px;
 }
 .body-quote-color2{
-	color: #FFEE58;
+	color: #FED850;
 	margin-bottom:-210px;
 	margin-left: 900px;
 }
@@ -117,6 +117,7 @@ footer{
 	font-weight:400;
 	text-transform: uppercase;
 	text-align: center;
+	margin-bottom: -10px;
 }
 em{
 	font-style: italic;
@@ -144,7 +145,7 @@ em{
 	transform: scale(1.1);
 }
 .yellow {
-	background-color: #FFEE58;
+	background-color: #FED850;
 }
 .rectangle-tab.yellow:hover {
 	transform: scale(1.1);
@@ -166,4 +167,7 @@ em{
 }
 .rectangle-tab.purple:hover {
 	transform: scale(1.1);
+}
+a:hover{
+	text-decoration: underline;
 }
