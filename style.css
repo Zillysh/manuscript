@@ -7,7 +7,7 @@ h1{
 	line-height: 90px;
 	text-transform: uppercase;
 	text-align: right;
-	width: 47%;
+	width: 47.5%;
 }
 .header-quote{
 	font-family: 'Fraunces', serif;
@@ -25,14 +25,19 @@ h1{
 .text-uppercase:first-letter{
 	text-transform: uppercase;
 }
+hgroup{
+	margin-top: 255px;
+	margin-bottom: 320px;
+}
 header{
 	font-family: 'Figtree', sans-serif;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight:400;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 250px;
-	margin-bottom: 180px;
+	letter-spacing: 1px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 .text-container {
 	width: 100%;
@@ -44,8 +49,8 @@ header{
 }
 .center-align {
 	display: inline-block;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -58,7 +63,7 @@ body{
 	font-family: 'Figtree', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
-	background-color: #FFFDF9;
+	background-color: #FCF9F1;
 	padding: 20px
 }
 p{
@@ -67,19 +72,19 @@ p{
 }
 .body-quote{
 	font-family: 'Fraunces', serif;
-	font-size: 40px;
-	line-height: 35px;
-	width: 23%
+	font-size: 55px;
+	line-height: 53px;
+	width: 30%
 }
 .body-quote-color1{
 	color: #E88614;
-	margin-bottom:-240px;
+	margin-bottom:-270px;
 	margin-left: 120px;
 }
 .body-quote-color2{
 	color: #FED850;
 	margin-bottom:-210px;
-	margin-left: 1000px;
+	margin-left: 900px;
 }
 .body-quote-color3{
 	color: #0DA50A;
@@ -88,25 +93,77 @@ p{
 }
 .body-quote-color4{
 	color: #2D58F1;
-	margin-bottom:-280px;
-	margin-left: 1000px;
+	margin-bottom:-390px;
+	margin-left: 900px;
+}
+.body-quote-color5{
+	color: #B22DF1;
+	margin-bottom:-250px;
+	margin-left: 120px;
 }
 .text-to-right{
-	margin-bottom: 250px;
+	margin-bottom: 200px;
 	margin-left: 700px;
 	margin-right: 120px;
 }
 .text-to-left{
-	margin-bottom: 250px;
+	margin-bottom: 200px;
 	margin-left:120px;
 	margin-right:700px;
 }
 footer{
-	font-family: 'Varela', sans-serif;
+	font-family: 'Figtree', sans-serif;
 	font-size: 18px;
+	font-weight:400;
 	text-transform: uppercase;
 	text-align: center;
 }
 em{
 	font-style: italic;
+}
+.rectangle-tab {
+	width: 17%;
+	height: 50px;
+	margin-right: -10px;
+	display: inline-block;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	transform-origin: bottom center;
+}
+.red {
+	background-color: #E53935;
+}
+.rectangle-tab.red:hover {
+	transform: scale(1.1);
+}
+.orange {
+	background-color: #FFB74D;
+	z-index: 2;
+}
+.rectangle-tab.orange:hover {
+	transform: scale(1.1);
+}
+.yellow {
+	background-color: #FFEE58;
+}
+.rectangle-tab.yellow:hover {
+	transform: scale(1.1);
+}
+.green {
+	background-color: #388E5A;
+}
+.rectangle-tab.green:hover {
+	transform: scale(1.1);
+}
+.blue {
+	background-color: #42A5F5;
+}
+.rectangle-tab.blue:hover {
+	transform: scale(1.1);
+}
+.purple {
+	background-color: #8756D5;
+}
+.rectangle-tab.purple:hover {
+	transform: scale(1.1);
 }
