@@ -7,43 +7,17 @@ h1{
 	line-height: 90px;
 	text-transform: uppercase;
 	text-align: right;
-}
-
-header{
-	font-family: 'Varela', sans-serif;
-	font-size: 25px;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top: 200px;
-	margin-bottom: 100px;
-}
-
-body{
-	font-family: 'Varela', sans-serif;
-	font-size: 23px;
-	background-color: #FFFDF9;
-}
-p{
-	line-height: 1.35;
-	margin-bottom: 20px;
-}
-footer{
-	font-family: 'Varela', sans-serif;
-	font-size: 15px;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
-em{
-	font-style: italic;
+	width: 46%;
 }
 .header-quote{
 	font-family: 'Fraunces', serif;
 	color: #FF0000;
 	font-size: 54px;
-	line-height: 90px;
+	line-height: 50px;
 	text-align: left;
+	margin-top: -200px;
+	margin-left: 805px;
+	width:30%
 }
 .text-uppercase{
 	text-transform: lowercase;
@@ -51,21 +25,88 @@ em{
 .text-uppercase:first-letter{
 	text-transform: uppercase;
 }
+header{
+	font-family: 'Varela', sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 250px;
+	margin-bottom: 180px;
+}
+.text-container {
+	width: 100%;
+	overflow: hidden;
+}
+.left-align {
+	float: left;
+	text-align: left;
+}
+.center-align {
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.right-align {
+	float: right;
+	text-align: right;
+}
+body{
+	font-family: 'Varela', sans-serif;
+	font-size: 18px;
+	background-color: #FFFDF9;
+	padding: 20px
+}
+p{
+	line-height: 1.35;
+	margin-bottom: 20px;
+}
 .body-quote{
 	font-family: 'Fraunces', serif;
 	font-size: 40px;
 	line-height: 35px;
+	width: 23%
 }
 .body-quote-color1{
 	color: #E88614;
+	margin-bottom:-240px;
+	margin-left: 120px;
 }
 .body-quote-color2{
 	color: #FED850;
+	margin-bottom:-210px;
+	margin-left: 1000px;
 }
 .body-quote-color3{
 	color: #0DA50A;
+	margin-bottom:-170px;
+	margin-left: 120px;
 }
 .body-quote-color4{
 	color: #2D58F1;
+	margin-bottom:-280px;
+	margin-left: 1000px;
 }
+.text-to-right{
+	margin-bottom: 250px;
+	margin-left: 700px;
+	margin-right: 120px;
+}
+.text-to-left{
+	margin-bottom: 250px;
+	margin-left:120px;
+	margin-right:700px;
+}
+footer{
+	font-family: 'Varela', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+em{
+	font-style: italic;
+}
+
 
