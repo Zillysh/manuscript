@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&family=Fraunces:opsz@9..144&family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&family=Fraunces:opsz@9..144&family=Figtree:wght@300;400;500;600&display=swap');
 
 h1{
 	font-family: 'Cormorant Garamond', serif;
@@ -7,7 +7,7 @@ h1{
 	line-height: 90px;
 	text-transform: uppercase;
 	text-align: right;
-	width: 46%;
+	width: 47%;
 }
 .header-quote{
 	font-family: 'Fraunces', serif;
@@ -26,8 +26,9 @@ h1{
 	text-transform: uppercase;
 }
 header{
-	font-family: 'Varela', sans-serif;
+	font-family: 'Figtree', sans-serif;
 	font-size: 25px;
+	font-weight:400;
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 250px;
@@ -54,14 +55,15 @@ header{
 	text-align: right;
 }
 body{
-	font-family: 'Varela', sans-serif;
-	font-size: 18px;
+	font-family: 'Figtree', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
 	background-color: #FFFDF9;
 	padding: 20px
 }
 p{
-	line-height: 1.35;
-	margin-bottom: 20px;
+	line-height: 1.4;
+	margin-bottom: 30px;
 }
 .body-quote{
 	font-family: 'Fraunces', serif;
@@ -101,12 +103,10 @@ p{
 }
 footer{
 	font-family: 'Varela', sans-serif;
-	font-size: 15px;
+	font-size: 18px;
 	text-transform: uppercase;
 	text-align: center;
 }
 em{
 	font-style: italic;
 }
-
-
