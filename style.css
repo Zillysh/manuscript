@@ -11,7 +11,7 @@ h1{
 }
 .header-quote{
 	font-family: 'Fraunces', serif;
-	color: #FF0000;
+	color: #E53935;
 	font-size: 54px;
 	line-height: 50px;
 	text-align: left;
@@ -77,27 +77,27 @@ p{
 	width: 30%
 }
 .body-quote-color1{
-	color: #E88614;
+	color: #FFB74D;
 	margin-bottom:-270px;
 	margin-left: 120px;
 }
 .body-quote-color2{
-	color: #FED850;
+	color: #FFEE58;
 	margin-bottom:-210px;
 	margin-left: 900px;
 }
 .body-quote-color3{
-	color: #0DA50A;
+	color: #388E5A;
 	margin-bottom:-170px;
 	margin-left: 120px;
 }
 .body-quote-color4{
-	color: #2D58F1;
+	color: #42A5F5;
 	margin-bottom:-390px;
 	margin-left: 900px;
 }
 .body-quote-color5{
-	color: #B22DF1;
+	color: #8756D5;
 	margin-bottom:-250px;
 	margin-left: 120px;
 }
